@@ -1,0 +1,80 @@
+#about {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+#about h4 {
+    color: #FFF;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.details {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.education__primary,
+.education__secondary,
+.education__bachelors {
+    color: #FFF;
+    width: max-content;
+    border: 1px solid cornsilk;
+    padding: 10px;
+}
+.education__primary h6,
+.education__secondary h6,
+.education__bachelors h6 {
+    font-size: 20px;
+    letter-spacing: 0.3em;
+}
+
+.skills{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.wheelOne,
+.wheelTwo,
+.wheelThree,
+.wheelFour {
+    position: relative;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+}
+.wheelOne p,
+.wheelTwo p,
+.wheelThree p,
+.wheelFour p{
+    color: cornsilk;
+    font-weight: bolder;
+    position: absolute;
+    top: 31%;
+    left: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wheelOne h4{
+    position: absolute;
+    top: 70%;
+    left: 37%;
+    letter-spacing: 0.1em;
+}
+.wheelTwo h4 {
+    position: absolute;
+    top: 70%;
+    left: 43%;
+    letter-spacing: 0.1em;
+}
+.wheelThree h4{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    letter-spacing: 0.1em;
+}
+.wheelFour h4 {
+    position: absolute;
+    top: 70%;
+    left: 38%;
+    letter-spacing: 0.1em;
+}

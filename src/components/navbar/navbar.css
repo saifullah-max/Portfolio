@@ -1,0 +1,27 @@
+.primary-nav {
+  background-color: #000;
+  line-height: 45px;
+  padding-left: 25px;
+  margin: 5px 4px;
+  margin-bottom: 70px;
+  position: sticky;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.primary-nav a {
+  color: white;
+  padding-right: 2rem; 
+  margin-right: 0; 
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.navbar h3 {
+    color: #CCC;
+    cursor: pointer;
+}
